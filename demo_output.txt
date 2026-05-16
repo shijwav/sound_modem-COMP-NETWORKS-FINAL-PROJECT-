@@ -1,0 +1,46 @@
+============================================================
+       SOUND MODEM — LOOPBACK DEMO
+============================================================
+
+[SENDER]   Original message : 'Hello Network!'
+[SENDER]   Total bits       : 112
+[SENDER]   Frequencies      : 0→1000Hz  1→2000Hz  preamble→500Hz
+
+[ENCODER]  Building audio waveform …
+[ENCODER]  Waveform length  : 415422 samples  (9.42s)
+
+[DECODER]  Decoding waveform …
+[DECODER]  Recovered message: 'Hello Network!'
+
+============================================================
+  Bit Error Rate : 0/112 errors  (0.0%)
+  Match          : ✓ PERFECT
+============================================================
+
+  Frequency timeline (first 40 bits):
+  ░▀░░▀░░░░▀▀░░▀░▀░▀▀░▀▀░░░▀▀░▀▀░░░▀▀░▀▀▀▀
+  (▀=2000Hz=1  ░=1000Hz=0)
+
+============================================================
+       SOUND MODEM — LOOPBACK DEMO
+============================================================
+
+[SENDER]   Original message : 'Computer Networks'
+[SENDER]   Total bits       : 136
+[SENDER]   Frequencies      : 0→1000Hz  1→2000Hz  preamble→500Hz
+
+[ENCODER]  Building audio waveform …
+[ENCODER]  Waveform length  : 500094 samples  (11.34s)
+
+[DECODER]  Decoding waveform …
+[DECODER]  Recovered message: 'Computer Networks'
+
+============================================================
+  Bit Error Rate : 0/136 errors  (0.0%)
+  Match          : ✓ PERFECT
+============================================================
+
+  Frequency timeline (first 40 bits):
+  ░▀░░░░▀▀░▀▀░▀▀▀▀░▀▀░▀▀░▀░▀▀▀░░░░░▀▀▀░▀░▀
+  (▀=2000Hz=1  ░=1000Hz=0)
+
